@@ -1,0 +1,785 @@
+{
+    "meta": {
+        "waluta": "PLN",
+        "ceny_brutto": true,
+        "vat": 23
+    },
+    "banery": {
+        "Frontlit 510g": {
+            "cena_m2": 80.0,
+            "minimum_zamowienia": 70.0,
+            "oczka_w_standardzie": true,
+            "progi_cenowe": [
+                {
+                    "maks_m2": 3.0,
+                    "cena_m2": 80.0
+                },
+                {
+                    "maks_m2": 9.0,
+                    "cena_m2": 70.0
+                },
+                {
+                    "maks_m2": 20.0,
+                    "cena_m2": 60.0
+                },
+                {
+                    "maks_m2": null,
+                    "cena_m2": 50.0
+                }
+            ]
+        },
+        "Folia mat": {
+            "cena_m2": 80.0,
+            "minimum_zamowienia": 70.0,
+            "oczka_w_standardzie": false,
+            "progi_cenowe": [
+                {
+                    "maks_m2": 1.0,
+                    "cena_m2": 80.0
+                },
+                {
+                    "maks_m2": 3.0,
+                    "cena_m2": 70.0
+                },
+                {
+                    "maks_m2": 10.0,
+                    "cena_m2": 60.0
+                },
+                {
+                    "maks_m2": null,
+                    "cena_m2": 50.0
+                }
+            ]
+        },
+        "Folia błysk": {
+            "cena_m2": 80.0,
+            "minimum_zamowienia": 70.0,
+            "oczka_w_standardzie": false,
+            "progi_cenowe": [
+                {
+                    "maks_m2": 1.0,
+                    "cena_m2": 80.0
+                },
+                {
+                    "maks_m2": 3.0,
+                    "cena_m2": 70.0
+                },
+                {
+                    "maks_m2": 10.0,
+                    "cena_m2": 60.0
+                },
+                {
+                    "maks_m2": null,
+                    "cena_m2": 50.0
+                }
+            ]
+        },
+        "Folia + laminat": {
+            "cena_m2": 100.0,
+            "minimum_zamowienia": 70.0,
+            "oczka_w_standardzie": false,
+            "progi_cenowe": [
+                {
+                    "maks_m2": 1.0,
+                    "cena_m2": 100.0
+                },
+                {
+                    "maks_m2": 3.0,
+                    "cena_m2": 90.0
+                },
+                {
+                    "maks_m2": 10.0,
+                    "cena_m2": 80.0
+                },
+                {
+                    "maks_m2": null,
+                    "cena_m2": 70.0
+                }
+            ]
+        },
+        "Folia OWH": {
+            "cena_m2": 90.0,
+            "minimum_zamowienia": 70.0,
+            "oczka_w_standardzie": false,
+            "progi_cenowe": [
+                {
+                    "maks_m2": 1.0,
+                    "cena_m2": 90.0
+                },
+                {
+                    "maks_m2": 3.0,
+                    "cena_m2": 80.0
+                },
+                {
+                    "maks_m2": 10.0,
+                    "cena_m2": 70.0
+                },
+                {
+                    "maks_m2": null,
+                    "cena_m2": 60.0
+                }
+            ]
+        },
+        "Folia transparentna": {
+            "cena_m2": 80.0,
+            "minimum_zamowienia": 70.0,
+            "oczka_w_standardzie": false,
+            "progi_cenowe": [
+                {
+                    "maks_m2": 1.0,
+                    "cena_m2": 80.0
+                },
+                {
+                    "maks_m2": 3.0,
+                    "cena_m2": 70.0
+                },
+                {
+                    "maks_m2": 10.0,
+                    "cena_m2": 60.0
+                },
+                {
+                    "maks_m2": null,
+                    "cena_m2": 50.0
+                }
+            ]
+        }
+    },
+    "pvc": {
+        "Folia z nadrukiem + PCV 1-5 mm": {
+            "cena_m2": 220.0,
+            "minimum_zamowienia": 70.0,
+            "grubosc": [
+                "1 mm",
+                "2 mm",
+                "3 mm",
+                "4 mm",
+                "5 mm"
+            ]
+        }
+    },
+    "wizytowki": {
+        "formaty": [
+            "90x50 mm",
+            "85x55 mm"
+        ],
+        "cyfrowe": {
+            "standard": {
+                "100": {
+                    "jednostronne": 80,
+                    "dwustronne": 100
+                },
+                "200": {
+                    "jednostronne": 110,
+                    "dwustronne": 165
+                },
+                "500": {
+                    "jednostronne": 220,
+                    "dwustronne": 310
+                }
+            },
+            "folia_soft_touch_lub_blysk": {
+                "100": {
+                    "jednostronne": 120,
+                    "dwustronne": 145
+                },
+                "200": {
+                    "jednostronne": 175,
+                    "dwustronne": 230
+                },
+                "500": {
+                    "jednostronne": 350,
+                    "dwustronne": 440
+                }
+            }
+        },
+        "offsetowe": {
+            "standard_dwustronne": {
+                "250": 115,
+                "500": 170,
+                "1000": 305,
+                "2500": 555
+            },
+            "foliowane_blysk_lub_soft_touch": {
+                "250": 270,
+                "500": 320,
+                "1000": 425
+            },
+            "zlocenie_lub_srebrzenie_plus_soft_touch": {
+                "250": 455,
+                "500": 530
+            },
+            "lakier_uv_3d_plus_soft_touch": {
+                "250": 425,
+                "500": 480,
+                "1000": 645
+            }
+        }
+    },
+    "papier_firmowy": {
+        "preprint_90g_kolor_jednostronny": {
+            "A4": {
+                "500": 350,
+                "1000": 545,
+                "2500": 715
+            }
+        }
+    },
+    "rollup": {
+        "Standard": {
+            "85 cm": 290,
+            "100 cm": 340,
+            "120 cm": 415,
+            "150 cm": 665
+        },
+        "Exclusive": {
+            "85 cm": 530,
+            "100 cm": 630,
+            "120 cm": 660,
+            "150 cm": 750
+        },
+        "Wkład z wymianą": {
+            "85 cm": 160,
+            "100 cm": 180,
+            "120 cm": 210,
+            "150 cm": 240
+        },
+        "X-baner": {
+            "60x160 cm": 155,
+            "80x180 cm": 195
+        }
+    },
+    "ulotki": {
+        "Cyfrowy": {
+            "Standard": {
+                "A6": {
+                    "100": 90,
+                    "200": 150,
+                    "500": 265
+                },
+                "A5": {
+                    "100": 165,
+                    "200": 290,
+                    "500": 495
+                },
+                "DL": {
+                    "100": 120,
+                    "200": 200,
+                    "500": 385
+                }
+            },
+            "Składane": {
+                "A5 do A6": {
+                    "100": 190,
+                    "200": 310,
+                    "500": 530
+                },
+                "A4 do A5": {
+                    "100": 310,
+                    "200": 530,
+                    "500": 990
+                },
+                "A4 do DL": {
+                    "100": 310,
+                    "200": 530,
+                    "500": 990
+                }
+            }
+        },
+        "Offsetowy": {
+            "Standard": {
+                "A7": {
+                    "500": 160,
+                    "1000": 200,
+                    "2500": 235
+                },
+                "A6": {
+                    "500": 200,
+                    "1000": 245,
+                    "2500": 315
+                },
+                "A5": {
+                    "500": 270,
+                    "1000": 340,
+                    "2500": 470
+                },
+                "DL": {
+                    "500": 235,
+                    "1000": 300,
+                    "2500": 375
+                }
+            },
+            "Składane": {
+                "A5 do A6": {
+                    "500": 315,
+                    "1000": 345,
+                    "2500": 454
+                },
+                "A4 do A5": {
+                    "500": 475,
+                    "1000": 555,
+                    "2500": 860
+                },
+                "A4 do DL": {
+                    "500": 455,
+                    "1000": 540,
+                    "2500": 935
+                }
+            }
+        }
+    },
+    "plakaty": {
+        "Cyfrowy": {
+            "A4": {
+                "10": 45,
+                "20": 65,
+                "50": 165
+            },
+            "A3": {
+                "10": 65,
+                "20": 110,
+                "50": 255
+            }
+        },
+        "Offsetowy": {
+            "A3": {
+                "100": 305,
+                "250": 425,
+                "500": 575
+            },
+            "A2": {
+                "50": 475,
+                "100": 595,
+                "250": 785
+            },
+            "A1": {
+                "50": 945,
+                "100": 1075,
+                "250": 1390
+            },
+            "B2": {
+                "50": 480,
+                "100": 680,
+                "250": 840
+            },
+            "B1": {
+                "50": 945,
+                "100": 1320,
+                "250": 2050
+            }
+        },
+        "Wielkoformatowy": {
+            "A2": 30,
+            "A1": 55,
+            "A0": 100,
+            "B2": 35,
+            "B1": 65,
+            "B0": 110
+        }
+    },
+    "naklejki": {
+        "powierzchniowe": {
+            "Wlepki": {
+                "cena_m2": 100,
+                "minimum_m2": 1.0
+            },
+            "Wlepki laminowane": {
+                "cena_m2": 130,
+                "minimum_m2": 1.0
+            },
+            "Magnesy reklamowe": {
+                "cena_m2": 160,
+                "minimum_m2": 0.6
+            }
+        },
+        "taxi": {
+            "Komplet naklejek taxi": {
+                "cena_sztuki": 50
+            },
+            "Komplet magnesy + naklejki taxi": {
+                "cena_sztuki": 70
+            },
+            "Cennik taxi – 2 sztuki": {
+                "cena_sztuki": 20
+            },
+            "Identyfikator taxi": {
+                "cena_sztuki": 30
+            }
+        }
+    },
+    "druk_cyfrowy_i_ksero": {
+        "mnozniki_formatu": {
+            "A4": 1.0,
+            "A3": 2.0
+        },
+        "mnozniki_zadruku": {
+            "Jednostronny": 1.0,
+            "Dwustronny": 2.0
+        },
+        "druk_cyfrowy": {
+            "Czarno-biały": {
+                "1-20": 1.0,
+                "21-100": 0.5,
+                "101-500": 0.3,
+                "501+": 0.2
+            },
+            "Kolorowy": {
+                "1-20": 3.0,
+                "21-100": 2.5,
+                "101-500": 2.0,
+                "501+": 1.5
+            }
+        },
+        "ksero_i_druk": {
+            "Czarno-biały": {
+                "1-20": 1.0,
+                "21-100": 0.5,
+                "101-500": 0.3,
+                "501+": 0.2
+            },
+            "Kolorowy": {
+                "1-20": 3.0,
+                "21-100": 2.5,
+                "101-500": 2.0,
+                "501+": 1.5
+            }
+        },
+        "ksero_ksiazki": {
+            "Czarno-biały": 0.5,
+            "Kolorowy": 2.5
+        },
+        "doplaty_do_papieru": {
+            "Standardowy 80 g": 0.0,
+            "Papier kolorowy": 0.3,
+            "Papier etykietowy": 2.0,
+            "Papier kredowy 130 g": 0.5,
+            "Papier kredowy 170 g": 1.0,
+            "Papier kredowy 250 g": 1.5,
+            "Papier kredowy 300 g": 2.0,
+            "Papier kredowy 350 g": 2.5
+        },
+        "dla_studentow": {
+            "Czarno-biały": {
+                "A4": 0.15,
+                "A3": 0.3
+            },
+            "Kolorowy": {
+                "A4": 1.2,
+                "A3": 2.4
+            }
+        },
+        "skanowanie": {
+            "Automatyczne": 0.1,
+            "Ręczne": 0.5
+        }
+    },
+    "odziez_z_nadrukiem": {
+        "rabaty": {
+            "od_10_sztuk": 10,
+            "powyzej_20_sztuk": 20
+        },
+        "produkty": {
+            "Koszulki bawełniane": {
+                "Basic": {
+                    "opis": "Bawełna 160 g, krój męski, damski i dziecięcy",
+                    "ceny": {
+                        "Do 10x15 cm": 55,
+                        "Do 20x30 cm": 65,
+                        "Do 35x40 cm": 85
+                    }
+                },
+                "Classic New": {
+                    "opis": "Bawełna 145 g, krój męski, damski i dziecięcy",
+                    "ceny": {
+                        "Do 10x15 cm": 50,
+                        "Do 20x30 cm": 60,
+                        "Do 35x40 cm": 80
+                    }
+                },
+                "Heavy New": {
+                    "opis": "Bawełna 200 g, krój unisex oversize",
+                    "ceny": {
+                        "Do 10x15 cm": 60,
+                        "Do 20x30 cm": 70,
+                        "Do 35x40 cm": 90
+                    }
+                },
+                "Slim Fit V-neck": {
+                    "opis": "Dekolt V, krój damski i męski",
+                    "ceny": {
+                        "Do 10x15 cm": 60,
+                        "Do 20x30 cm": 70,
+                        "Do 35x40 cm": 90
+                    }
+                }
+            },
+            "Koszulki poliestrowe": {
+                "Fantasy": {
+                    "opis": "Krój męski, damski i dziecięcy",
+                    "ceny": {
+                        "Do 10x15 cm": 60,
+                        "Do 20x30 cm": 70,
+                        "Do 35x40 cm": 90
+                    }
+                },
+                "Chance": {
+                    "opis": "Krój męski i damski, kolory melanżowe",
+                    "ceny": {
+                        "Do 10x15 cm": 70,
+                        "Do 20x30 cm": 80,
+                        "Do 35x40 cm": 100
+                    }
+                },
+                "Pixel": {
+                    "opis": "Luźniejszy krój unisex",
+                    "ceny": {
+                        "Do 10x15 cm": 60,
+                        "Do 20x30 cm": 70,
+                        "Do 35x40 cm": 90
+                    }
+                }
+            },
+            "Koszulki polo": {
+                "Pique Polo": {
+                    "opis": "Bawełna z poliestrem, krój męski, damski i dziecięcy",
+                    "ceny": {
+                        "Do 10x15 cm": 70,
+                        "Do 20x30 cm": 80,
+                        "Do 35x40 cm": 100
+                    }
+                },
+                "Cotton": {
+                    "opis": "100% bawełny, krój męski i damski",
+                    "ceny": {
+                        "Do 10x15 cm": 70,
+                        "Do 20x30 cm": 80,
+                        "Do 35x40 cm": 100
+                    }
+                },
+                "Single Jersey": {
+                    "opis": "Gładka bawełna, krój męski i damski",
+                    "ceny": {
+                        "Do 10x15 cm": 70,
+                        "Do 20x30 cm": 80,
+                        "Do 35x40 cm": 100
+                    }
+                }
+            },
+            "Bluzy": {
+                "Essential": {
+                    "opis": "Gruba bluza unisex z mieszanki bawełny i poliestru",
+                    "ceny": {
+                        "Do 10x15 cm": 110,
+                        "Do 20x30 cm": 120,
+                        "Do 35x40 cm": 135
+                    }
+                },
+                "Trendy Zipper": {
+                    "opis": "Bluza z zamkiem i kapturem",
+                    "ceny": {
+                        "Do 10x15 cm": 160,
+                        "Do 20x30 cm": 170,
+                        "Do 35x40 cm": 185
+                    }
+                },
+                "Cape": {
+                    "opis": "Bluza kangurka, krój męski i damski",
+                    "ceny": {
+                        "Do 10x15 cm": 160,
+                        "Do 20x30 cm": 170,
+                        "Do 35x40 cm": 185
+                    }
+                }
+            },
+            "Kamizelki odblaskowe": {
+                "Kamizelka odblaskowa": {
+                    "opis": "Kolor żółty lub pomarańczowy, rozmiary S-3XL",
+                    "ceny": {
+                        "Nadruk 20x30 cm": 40
+                    }
+                }
+            },
+            "Czapki": {
+                "Czapka z daszkiem": {
+                    "opis": "Czapka typu bejsbolówka lub raperka",
+                    "ceny": {
+                        "Nadruk standardowy": 55
+                    }
+                }
+            },
+            "Torby bawełniane": {
+                "Carry": {
+                    "opis": "Torba 280 g z nadrukiem 20x30 cm",
+                    "ceny": {
+                        "Nadruk 20x30 cm": 50
+                    }
+                },
+                "Shopper": {
+                    "opis": "Torba 195 g z nadrukiem 20x30 cm",
+                    "ceny": {
+                        "Nadruk 20x30 cm": 40
+                    }
+                }
+            },
+            "Worki bawełniane": {
+                "Worko-plecak Easygo": {
+                    "opis": "Bawełniany worko-plecak z nadrukiem około 20x30 cm",
+                    "ceny": {
+                        "Nadruk 20x30 cm": 40
+                    }
+                }
+            },
+            "Sam nadruk": {
+                "Nadruk na odzieży klienta": {
+                    "opis": "Cena samego nadruku bez odzieży",
+                    "ceny": {
+                        "Do 10x15 cm": 20,
+                        "Do 20x30 cm": 30,
+                        "Do 35x40 cm": 50
+                    }
+                }
+            }
+        }
+    },
+    "oprawa_prac": {
+        "format": "A4",
+        "rodzaje_opraw": {
+            "Oprawa kanałowa twarda A4": {
+                "5 mm": 18.9,
+                "10 mm": 22.9,
+                "13 mm": 25.9,
+                "16 mm": 27.9
+            },
+            "Oprawa miękka zaciskowa": {
+                "5 mm": 9.9,
+                "10 mm": 11.9,
+                "13 mm": 14.9,
+                "16 mm": 17.9
+            },
+            "Bindowanie – spirala plastikowa": {
+                "12,5 mm": 6.5,
+                "14 mm": 7.0,
+                "16 mm": 7.5,
+                "19 mm": 8.5,
+                "25 mm": 10.2,
+                "32 mm": 14.0,
+                "38 mm": 16.0,
+                "51 mm": 19.0
+            },
+            "Bindowanie – spirala metalowa": {
+                "4 mm": 7.0,
+                "6,4 mm": 7.5,
+                "8 mm": 8.0,
+                "9,5 mm": 8.5,
+                "11 mm": 11.0,
+                "12,7 mm": 10.0,
+                "14,3 mm": 14.3
+            }
+        }
+    },
+    "laminowanie": {
+        "folia_mikrony": 80,
+        "formaty": {
+            "A6 i mniejsze": 2.0,
+            "A5": 3.0,
+            "A4": 4.0,
+            "A3": 7.0
+        }
+    },
+    "obrazy_na_plotnie": {
+        "minimalny_bok_cm": 30,
+        "maksymalny_bok_cm": 150,
+        "material": "Grube płótno poliestrowe na drewnianym blejtramie",
+        "formaty": {
+            "30x30": 60,
+            "30x40": 75,
+            "30x50": 85,
+            "30x60": 90,
+            "30x70": 105,
+            "30x80": 115,
+            "30x90": 130,
+            "30x100": 140,
+            "30x110": 150,
+            "30x120": 165,
+            "30x130": 180,
+            "30x140": 200,
+            "30x150": 210,
+            "40x40": 85,
+            "40x50": 95,
+            "40x60": 110,
+            "40x70": 120,
+            "40x80": 135,
+            "40x90": 140,
+            "40x100": 145,
+            "40x110": 160,
+            "40x120": 160,
+            "40x130": 190,
+            "40x140": 210,
+            "40x150": 225,
+            "50x50": 110,
+            "50x60": 120,
+            "50x70": 140,
+            "50x80": 150,
+            "50x90": 165,
+            "50x100": 175,
+            "50x110": 190,
+            "50x120": 205,
+            "50x130": 215,
+            "50x140": 230,
+            "50x150": 240,
+            "60x60": 140,
+            "60x70": 150,
+            "60x80": 160,
+            "60x90": 175,
+            "60x100": 190,
+            "60x110": 205,
+            "60x120": 215,
+            "60x130": 230,
+            "60x140": 240,
+            "60x150": 260,
+            "70x70": 158,
+            "70x80": 170,
+            "70x90": 180,
+            "70x100": 195,
+            "70x110": 210,
+            "70x120": 225,
+            "70x130": 235,
+            "70x140": 255,
+            "70x150": 270,
+            "80x80": 305,
+            "80x90": 195,
+            "80x100": 210,
+            "80x110": 225,
+            "80x120": 235,
+            "80x130": 260,
+            "80x140": 270,
+            "80x150": 290,
+            "90x90": 210,
+            "90x100": 225,
+            "90x110": 240,
+            "90x120": 260,
+            "90x130": 278,
+            "90x140": 305,
+            "90x150": 330,
+            "100x100": 240,
+            "100x110": 266,
+            "100x120": 283,
+            "100x130": 310,
+            "100x140": 340,
+            "100x150": 363,
+            "110x110": 278,
+            "110x120": 305,
+            "110x130": 330,
+            "110x140": 355,
+            "110x150": 387,
+            "120x120": 315,
+            "120x130": 345,
+            "120x140": 370,
+            "120x150": 400,
+            "130x130": 350,
+            "130x140": 380,
+            "130x150": 405,
+            "140x140": 460,
+            "140x150": 545
+        }
+    }
+}

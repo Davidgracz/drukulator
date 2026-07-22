@@ -1,0 +1,28 @@
+PATCH: Obrazy na płótnie — własny wymiar
+
+Co dodano:
+- przełącznik „Gotowy format z cennika” / „Własny wymiar”;
+- pola szerokości i wysokości obrazu w centymetrach;
+- automatyczne wyświetlanie ceny;
+- ilość obrazów;
+- informację o formacie rozliczeniowym;
+- dodawanie własnego wymiaru do koszyka;
+- opcjonalny podgląd zdjęcia i kontrolę proporcji.
+
+Zasada wyceny:
+Własny rozmiar jest rozliczany według najmniejszego większego formatu,
+który istnieje w data/prices.json i mieści podaną szerokość oraz wysokość.
+
+Instalacja:
+1. Zamknij uruchomiony Streamlit.
+2. Skopiuj folder „calculators” z tej paczki do głównego folderu projektu.
+3. Zgódź się na scalenie folderów i podmianę plików.
+4. Uruchom ponownie start.bat.
+
+Paczka zawiera dwa warianty nazwy modułu:
+- calculators/canvas.py
+- calculators/canvas_print.py
+
+Dzięki temu poprawka pasuje zarówno do importu „canvas”, jak i
+„canvas_print”. Jeżeli app.py używa innej nazwy modułu obrazów,
+skorzystaj z pliku APP_INTEGRACJA.txt.

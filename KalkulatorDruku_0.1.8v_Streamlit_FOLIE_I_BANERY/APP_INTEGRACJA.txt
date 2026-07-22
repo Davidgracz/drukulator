@@ -1,0 +1,13 @@
+# Fragment integracji w app.py
+#
+# Jeżeli obecna wersja Streamlit już ma pozycję „Obrazy na płótnie”,
+# nie trzeba zmieniać app.py — wystarczy podmienić moduł kalkulatora.
+#
+# W przeciwnym razie dodaj import:
+#
+# from calculators import canvas
+#
+# A w miejscu obsługi wybranej kategorii:
+#
+# elif selected_page == "Obrazy na płótnie":
+#     canvas.render(prices)
