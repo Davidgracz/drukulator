@@ -1,0 +1,46 @@
+name: Apply calculator 0.10.10 update
+
+on:
+  push:
+    paths:
+      - '.github/workflows/update-calculator.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply calculator files and assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .update/part*.b64 | base64 -d > /tmp/drukulator-update.tar.gz
+          tar -xzf /tmp/drukulator-update.tar.gz -C .
+
+          mkdir -p assets/case-items assets/easter-eggs
+          base="https://druk24.szczecin.pl/drukulator/assets"
+          ua="Mozilla/5.0 (GitHub Actions; drukulator repository sync)"
+          for f in discount-1.png discount-2.png discount-3.png discount-5.png discount-10.png discount-15.png; do
+            curl -fL --retry 3 --retry-delay 2 -A "$ua" "$base/case-items/$f" -o "assets/case-items/$f"
+          done
+          curl -fL --retry 3 --retry-delay 2 -A "$ua"             "$base/easter-eggs/fnaf-foxy-jumpscare-once.gif"             -o assets/easter-eggs/fnaf-foxy-jumpscare-once.gif
+
+          rm -rf .update
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Update online print price calculator"
+          git push origin HEAD:main
